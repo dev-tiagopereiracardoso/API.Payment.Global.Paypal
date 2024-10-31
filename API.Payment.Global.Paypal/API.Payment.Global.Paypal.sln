@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A5AE947-01B3-4506-96FE-0768B2C036BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{6D7F6D0B-2EB4-4547-899C-452762DD4964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{B3438CFF-E96F-4AF9-B366-BE16FF98488D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{361B67E6-6D61-4982-B5C9-FFBE9BC90A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Paypal.Service", "src\API.Payment.Global.Paypal.Service\API.Payment.Global.Paypal.Service.csproj", "{849776A1-8D36-4056-861C-3372378D41BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Paypal.Domain", "src\API.Payment.Global.Paypal.Domain\API.Payment.Global.Paypal.Domain.csproj", "{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Paypal.Models", "API.Payment.Global.Paypal.Models\API.Payment.Global.Paypal.Models.csproj", "{58D3B00F-AA71-40A7-8590-860CC4287D3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5E9B2B3-EEFC-49C6-A939-D493FEE48B81}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849776A1-8D36-4056-861C-3372378D41BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849776A1-8D36-4056-861C-3372378D41BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849776A1-8D36-4056-861C-3372378D41BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849776A1-8D36-4056-861C-3372378D41BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D3B00F-AA71-40A7-8590-860CC4287D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D3B00F-AA71-40A7-8590-860CC4287D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D3B00F-AA71-40A7-8590-860CC4287D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D3B00F-AA71-40A7-8590-860CC4287D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D7F6D0B-2EB4-4547-899C-452762DD4964} = {8A5AE947-01B3-4506-96FE-0768B2C036BB}
+		{B3438CFF-E96F-4AF9-B366-BE16FF98488D} = {8A5AE947-01B3-4506-96FE-0768B2C036BB}
+		{361B67E6-6D61-4982-B5C9-FFBE9BC90A2C} = {8A5AE947-01B3-4506-96FE-0768B2C036BB}
+		{849776A1-8D36-4056-861C-3372378D41BA} = {6D7F6D0B-2EB4-4547-899C-452762DD4964}
+		{0DD06702-D80E-42BA-86F5-C67C2CA3F5EB} = {B3438CFF-E96F-4AF9-B366-BE16FF98488D}
+		{58D3B00F-AA71-40A7-8590-860CC4287D3C} = {361B67E6-6D61-4982-B5C9-FFBE9BC90A2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {542D2A96-CB2F-43ED-BB6E-915265E5C941}
+	EndGlobalSection
+EndGlobal
